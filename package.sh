@@ -5,7 +5,7 @@
 # Author sahaivan89@gmail.com
 # Feel free to reach out to share suggestion ti improve this script
 
-echo "Let's start by checking if the package is not already installed"
+echo "Let us start by checking if the package is not already installed"
 echo "$USER, what is the name of your package?"
 read pck
 systemctl status $pck > /dev/null
